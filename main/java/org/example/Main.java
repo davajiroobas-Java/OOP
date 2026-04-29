@@ -6,12 +6,10 @@ public class Main {
 
     public static void main(String[]args){
 
-        Hyena hyena= new Hyena(" Shenzi");
-        hyena.laugh();
-        hyena.eat(" banana");
+        Rectangle rect= new Rectangle(4,5);
+        Triangle tri= new Triangle(4,5);
 
-        Lion lion= new Lion(" Simba");
-        lion.roar();
-
+        System.out.println("Rectangle area " +  rect.getArea());
+        System.out.println("Triangle area " + tri.getArea());
     }
 }
